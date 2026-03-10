@@ -193,4 +193,3 @@ curl -X POST "http://<公网IP>/api/upload" \
 - `mini-windsight.service` 里监听的是 `127.0.0.1:5000`
 - Nginx 监听 `80`
 - 若 `5000` 被占用，先 `sudo lsof -i :5000` 查占用，再调整端口
-
